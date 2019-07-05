@@ -1,6 +1,6 @@
 # Install Instructions
 
-This is a fork of Neel Basu's (Sunanda Bose) mathematica++, taken from https://gitlab.com/neel.basu/mathematicapp. I've had to change several things to get this project working on my machine:
+This is a fork of Neel Basu's (Sunanda Bose) mathematica++, taken from https://gitlab.com/neel.basu/mathematicapp. It is a C++ library that can directly call Mathematica functions (from within the C++ code) by using the API to the Wolfram-Engine. I've had to change several things to get this project working on my machine:
 
 Firstly, follow the instructions from the wiki
 
@@ -75,4 +75,5 @@ I've had to include the Boost- as well as the Eigen-library dependencies. Theref
     export CPLUS_INCLUDE_PATH=/home/lindorfer/Programs/boost_1_69_0/
     export LD_LIBRARY_PATH=/home/lindorfer/Programs/boost_1_69_0/bin.v2/libs:$LD_LIBRARY_PATH
 
-as well as installed the eigenlib-dev package from ubuntu18.04 through synaptic (the Boost-library was compiled by cd'in into the boost folder and executing ./bootstrap.sh and ./b2).
+as well as installed the eigenlib-dev package from ubuntu18.04 through synaptic (the Boost-library was compiled by cd'in into the boost folder and executing ./bootstrap.sh and ./b2). The libuuid was also required (*sudo apt install libuuid*).
+
