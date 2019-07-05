@@ -38,11 +38,11 @@ and modify the *CMakeLists.txt* to:
 
     ...
     IF(Eigen3_FOUND)
-        ADD_EXECUTABLE(eigen eigen.cpp)
-        TARGET_LINK_LIBRARIES(eigen ${Boost_LIBRARIES})
-        TARGET_LINK_LIBRARIES(eigen mathematica++)
+        #ADD_EXECUTABLE(eigen eigen.cpp)
+        #TARGET_LINK_LIBRARIES(eigen ${Boost_LIBRARIES})
+        #TARGET_LINK_LIBRARIES(eigen mathematica++)
         
-        ADD_TEST(eigen eigen --report_level=short --log_level=message --show_progress=true)
+        #ADD_TEST(eigen eigen --report_level=short --log_level=message --show_progress=true)
     ENDIF()
     ...
 
