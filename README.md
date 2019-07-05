@@ -1,6 +1,6 @@
 # Install Instructions
 
-This is a fork of Neel Basu's (Sunanda Bose) mathematica++, taken from https://gitlab.com/neel.basu/mathematicapp. It is a C++ library that can directly call Mathematica functions (from within the C++ code) by using the API to the Wolfram-Engine. I've had to change several things to get this project working on my machine:
+This is a fork of Neel Basu's (Sunanda Bose) Mathematica++, taken from https://gitlab.com/neel.basu/mathematicapp. It is a C++ library that can directly call Mathematica functions (from within the C++ code) by using the API to the Wolfram-Engine. I've had to change several things to get this project working on my machine:
 
 Firstly, follow the instructions from the wiki
 
