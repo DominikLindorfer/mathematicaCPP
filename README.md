@@ -75,4 +75,4 @@ I've had to include the Boost- as well as the Eigen-library dependencies. Theref
     export CPLUS_INCLUDE_PATH=/home/lindorfer/Programs/boost_1_69_0/
     export LD_LIBRARY_PATH=/home/lindorfer/Programs/boost_1_69_0/bin.v2/libs:$LD_LIBRARY_PATH
 
-as well as installes the eigenlib-dev package from ubuntu18.04 through synaptic (the boost-library was compiled by cd'in into the boost folder and executing ./bootstrap.sh and ./b2)
+as well as installed the eigenlib-dev package from ubuntu18.04 through synaptic (the Boost-library was compiled by cd'in into the boost folder and executing ./bootstrap.sh and ./b2).
